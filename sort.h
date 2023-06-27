@@ -4,7 +4,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-/*enum bool - implementing bool values*/
+/**
+ *enum bool - implementing bool values
+ *@false - flase
+ *@true - ture
+ */
 typedef enum bool
 {
 false = 0,
