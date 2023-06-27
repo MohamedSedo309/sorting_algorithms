@@ -32,7 +32,7 @@ if (array == NULL || size < 2)
 return;
 }
 
-while (!b)
+while (b == false)
 {
 b = true;
 for (i = 0; i < length - 1; i++)
