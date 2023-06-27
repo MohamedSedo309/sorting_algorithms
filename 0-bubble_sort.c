@@ -2,6 +2,20 @@
 #include "swap_ints.c"
 
 /**
+ * swap_ints - Swap two int values
+ * @x: First int
+ * @y: Second int
+ */
+
+void swap_ints(int *x,int *y)
+{
+int tmp;
+tmp = *x; 
+*x = *y;
+*y = tmp;
+}
+
+/**
  * bubble_sort - sort array of integers in ascending order
  * @array: array to sort
  * @size: array size
