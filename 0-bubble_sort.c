@@ -23,23 +23,27 @@ tmp = *x;
 
 void bubble_sort(int *array, size_t size)
 {
-    int temp, swapped;
+size_t i;
+size_t length;
+bool b = false;
 
-    if (array == NULL || size < 2)
-        return;
+if (array == NULL || size < 2)
+{
+return;
+}
 
-    do {
-        swapped = 0;
-        for (size_t i = 0; i < size - 1; i++)
-        {
-            if (array[i] > array[i + 1])
-            {
-                temp = array[i];
-                array[i] = array[i + 1];
-                array[i + 1] = temp;
-                swapped = 1;
-                print_array(array, size);
-            }
-        }
-    } while (swapped);
+while (b == false)
+{
+b = true;
+for (i = 0; i < length - 1; i++)
+{
+if (array[i] > array[i + 1])
+{
+swap_ints(array + i, array + i + 1);
+print_array(array, size);
+b = false;
+}
+}
+length--;
+}
 }
