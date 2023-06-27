@@ -25,7 +25,7 @@ void bubble_sort(int *array, size_t size)
 {
 size_t i;
 size_t length;
-bool bubbly = false;
+bool b = false;
 
 if (array == NULL || size < 2)
 {
