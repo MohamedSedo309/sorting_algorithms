@@ -42,7 +42,7 @@ tmp = itr->next;
 new_node = itr->prev;
 while (new_node != NULL && itr->n < new_node->n)
 {
-swap_nodes(list, &new_node, itr);
+swap_node(list, &new_node, itr);
 print_list((const listint_t *)*list);
 }
 }
