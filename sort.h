@@ -4,7 +4,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-/*enum bool*/
+/*enum bool - implementing bool values*/
 typedef enum bool
 {
 false = 0,
