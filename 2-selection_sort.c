@@ -1,9 +1,10 @@
 #include "sort.h"
 
 /**
- * insertion_sort_list - sorts a doubly linked list of
- * integers in ascending order
- * @list: head pointer of the doubly linked list
+ * selection_sort - sort array of integers in ascending order
+ * @array: array to sort
+ * @size: array size
+ * Description: Prints the array after each int swap.
  */
 
 void selection_sort(int *array, size_t size)
