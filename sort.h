@@ -5,9 +5,10 @@
 #include <stdlib.h>
 
 /**
- *enum bool - implementing bool values
- *@false - flase
- *@true - ture
+ * enum bool - Represents a boolean value
+ *
+ * @false: The boolean value "false", which is equal to 0
+ * @true: The boolean value "true", which is equal to 1
  */
 typedef enum bool
 {
