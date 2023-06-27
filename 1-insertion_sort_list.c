@@ -7,7 +7,7 @@
  * @n2: second node to swap
  */
 
-void swap_node(listint_t **h, listint_t n1, listint_t n2)
+void swap_node(listint_t **h, listint_t **n1, listint_t *n2)
 {
     (*n1)->next = n2->next;
     if (n2->next != NULL)
